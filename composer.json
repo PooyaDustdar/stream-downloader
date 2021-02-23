@@ -1,0 +1,24 @@
+{
+    "name": "pdustdar/stream-downloader",
+    "type": "library",
+    "authors": [
+        {
+            "name": "pooya dustdar",
+            "email": "pdustdar@gmail.com",
+            "homepage": "https://dustdar.ir"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Pdustdar\\StreamDownloader\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pdustdar\\StreamDownloader\\StreamDownloaderServiceProvider"
+            ]
+        }
+    }
+}
